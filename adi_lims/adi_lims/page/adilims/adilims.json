@@ -1,0 +1,19 @@
+{
+    "content": null,
+    "creation": "2025-12-27 12:50:11.641030",
+    "docstatus": 0,
+    "doctype": "Page",
+    "idx": 0,
+    "modified": "2025-12-27 12:50:11.641030",
+    "modified_by": "Administrator",
+    "module": "ADI LIMS",
+    "name": "adilims",
+    "owner": "Administrator",
+    "page_name": "adilims",
+    "roles": [],
+    "script": null,
+    "standard": "Yes",
+    "style": null,
+    "system_page": 0,
+    "title": "MediLIMS Dashboard"
+}

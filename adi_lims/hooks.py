@@ -10,6 +10,20 @@ app_license = "agpl-3.0"
 
 # required_apps = []
 
+
+whitelist_methods = [
+    "adi_lims.api.get_doctype_counts",
+    "adi_lims.api.get_recent_activity",
+    "adi_lims.api.create_new_patient",
+    "adi_lims.api.create_new_sample",
+    "adi_lims.api.get_patients_for_listing",
+    "adi_lims.api.get_samples_for_listing",
+    "adi_lims.api.get_samples_for_result_entry",
+    "adi_lims.api.update_test_result",
+    "adi_lims.api.create_dummy_sample_with_tests",
+    "adi_lims.api.get_appointments_for_listing"
+]
+
 # Each item in the list will be shown as an app in the apps page
 # add_to_apps_screen = [
 # 	{
@@ -25,7 +39,7 @@ app_license = "agpl-3.0"
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/adi_lims/css/adi_lims.css"
+app_include_css = "/assets/adi_lims/css/tailwind_output.css"
 # app_include_js = "/assets/adi_lims/js/adi_lims.js"
 
 # include js, css files in header of web template
